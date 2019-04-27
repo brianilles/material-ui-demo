@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Button from "@material-ui/core/Button";
 
 function App() {
   return (
     <div className="App">
-      <p>sanity</p>
+      <Button variant="contained" color="primary">
+        Sign Up
+      </Button>
     </div>
   );
 }
